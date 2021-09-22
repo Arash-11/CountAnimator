@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 7rem auto 0;
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #000;
+  font-size: 3rem;
+}
+
+button {
+  display: block;
+  margin: 5rem auto;
+  padding: 1rem;
+  cursor: pointer;
+}

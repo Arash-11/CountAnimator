@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# source code
+src
+
+# webpack
+webpack.config.js
+
+# demo
+demo
