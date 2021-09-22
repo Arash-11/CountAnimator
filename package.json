@@ -1,6 +1,6 @@
 {
   "name": "countanimator",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A lightweight and dependency-free number counter that animates numbers incrementing or decrementing.",
   "main": "dist/countanimator.js",
   "files": [
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arash-11/NumCounter.git"
+    "url": "git+https://github.com/Arash-11/CountAnimator.git"
   },
   "scripts": {
     "prepublish": "npm run build"
@@ -17,14 +17,14 @@
     "lightweight",
     "number",
     "counter",
-    "animate"
+    "animator"
   ],
   "author": "Arash Nawyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arash-11/NumCounter/issues"
+    "url": "https://github.com/Arash-11/CountAnimator/issues"
   },
-  "homepage": "https://github.com/Arash-11/NumCounter#readme",
+  "homepage": "https://github.com/Arash-11/CountAnimator#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",

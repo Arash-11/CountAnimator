@@ -2,15 +2,13 @@
 
 A lightweight and dependency-free number counter that animates numbers incrementing or decrementing, which allows you to control the 'speed' too!
 
-[VIEW DEMO HERE]()
-
 <br />
 
 ## Usage
 
 1. Either include the CDN
 ```
-
+https://unpkg.com/countanimator@1.2.0/dist/countanimator.js
 ```
 or install it as an NPM package.
 ```
@@ -19,14 +17,14 @@ npm i countanimator
 
 2. Import the package (you can skip this step if you've included the CDN script).
 ```
-
+import CountAnimator from 'countanimator';
 ```
 
 3. Pass the necessary arguments to the constructor.
 
 The constructor takes two arguments - an HTML element and an optional object (consists of the following keys: `start`, `end`, `steps`, `delay`).
 
- - `el` - HTML element that should output the number (_required_)
+ - `selector` - selector for the element that should output the number (_required_)
 
  - `start` - number to start counting from (_default value is 0_)
  - `end` - number to end counting at (_default value is 100_)
@@ -35,9 +33,9 @@ The constructor takes two arguments - an HTML element and an optional object (co
 
  ```
 const options = {
-    start: -4,
-    end: 60,
-    steps: 2,
+    start: 0,
+    end: 50,
+    steps: 1,
     delay: 70
 };
 ```
@@ -45,7 +43,7 @@ const options = {
 4. Instantiate the `CountAnimator` class and pass in the arguments object.
 
 ```
-const countAnimator = new CountAnimator(el, options);
+const countAnimator = new CountAnimator(selector, options);
 ```
 
 5. Initialize the counter when you're ready by invoking `.init()`.
@@ -59,10 +57,9 @@ countAnimator.init();
 ## Example
 Example of a simple program that counts from 0 to 50 when you click a button:
 
-```
+```js
+import CountAnimator from 'countanimator'; // not required if using CDN
 
-
-const el = document.querySelector('div');
 const btn = document.querySelector('button');
 
 const options = {
@@ -72,7 +69,7 @@ const options = {
   delay: 70
 };
 
-const countAnimator = new CountAnimator(el, options);
+const countAnimator = new CountAnimator('div', options);
 
 btn.addEventListener('click', () => {
   countAnimator.init();
