@@ -2,8 +2,6 @@
 
 A lightweight and dependency-free number counter that animates numbers incrementing or decrementing, which allows you to control the 'speed' too!
 
-<br />
-
 ## Usage
 
 1. Either include the CDN
@@ -63,9 +61,9 @@ import CountAnimator from 'countanimator'; // not required if using CDN
 const btn = document.querySelector('button');
 
 const options = {
-  start: -4,
-  end: 60,
-  steps: 2,
+  start: 0,
+  end: 50,
+  steps: 1,
   delay: 70
 };
 
