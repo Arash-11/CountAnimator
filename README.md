@@ -6,7 +6,7 @@ A lightweight and dependency-free number counter that animates numbers increment
 
 1. Either include the CDN
 ```
-https://unpkg.com/countanimator@1.2.0/dist/countanimator.js
+https://unpkg.com/countanimator@1.2.1/dist/countanimator.js
 ```
 or install it as an NPM package.
 ```
