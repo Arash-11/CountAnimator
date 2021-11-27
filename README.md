@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/dt/countanimator?style=for-the-badge)
+
 # CountAnimator
 
 A lightweight and dependency-free number counter that animates numbers incrementing or decrementing, which allows you to control the 'speed' too!
